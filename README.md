@@ -54,7 +54,7 @@ modbus:
         precision: 2
         scan_interval: 10
         device_class: energy
-        state_class: measurement
+        state_class: total_increasing
       - name: "SDM230 Export Active Energy"
         address: 0x4A
         data_type: float32
@@ -65,7 +65,7 @@ modbus:
         precision: 2
         scan_interval: 10
         device_class: energy
-        state_class: measurement
+        state_class: total_increasing
 ```
 
 Wiring:
