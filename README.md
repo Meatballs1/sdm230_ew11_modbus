@@ -65,3 +65,7 @@ modbus:
         scan_interval: 10
         device_class: energy
 ```
+
+Wiring:
+
+I just used 2 core cable to connect A to A and B to B - I didn't need any line resistors or to connect a common ground, but the cable wasn't that long.
